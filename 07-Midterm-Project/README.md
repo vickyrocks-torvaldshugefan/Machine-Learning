@@ -6,7 +6,7 @@
 ![Docker](https://img.shields.io/badge/Container-Docker-2496ED?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Orchestration-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 
-> 🎯 **An end-to-end Machine Learning & MLOps project** that predicts whether an online shopping session will convert into a purchase—taking you from raw exploratory data analysis all the way to a containerized **FastAPI** service orchestrated on **Kubernetes**.
+> 🎯 **An end-to-end Machine Learning** that predicts whether an online shopping session will convert into a purchase—taking you from raw exploratory data analysis all the way to a containerized **FastAPI** service orchestrated on **Kubernetes**.
 
 ---
 
