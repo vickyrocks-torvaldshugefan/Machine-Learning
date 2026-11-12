@@ -43,7 +43,7 @@ The application ingests real-time session metrics and outputs:
 - 📊 **Purchase Probability:** The estimated likelihood that the visitor will buy.
 - 🏷️ **Binary Prediction:** Whether the visitor is likely to complete a purchase (`true` / `false`).
 
-The trained model is served via a REST API built with **FastAPI**, packaged into a **Docker** container, and deployed onto a local **Kubernetes** cluster—demonstrating a complete, production-ready ML lifecycle.
+The trained model is served via a REST API built with **FastAPI**, packaged into a **Docker** container, and deployed onto a local **Kubernetes** cluster—demonstrating a complete, production-ready ML workflow.
 
 ---
 
