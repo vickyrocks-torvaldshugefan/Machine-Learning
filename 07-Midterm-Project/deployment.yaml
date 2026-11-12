@@ -1,0 +1,26 @@
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: online-shoppers-api
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: online-shoppers-api
+
+  template:
+    metadata:
+      labels:
+        app: online-shoppers-api
+
+    spec:
+      containers:
+        - name: shoppers-api
+          image: online-shoppers-api:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
