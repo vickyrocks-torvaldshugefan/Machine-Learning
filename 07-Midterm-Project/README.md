@@ -76,6 +76,18 @@ The target variable `Revenue` indicates session outcome:
 > 💡 **Handling Class Imbalance:** Because non-purchasing sessions heavily outnumber purchases, accuracy alone can be misleading. Therefore, **ROC-AUC**, **Precision**, **Recall**, and **F1-score** are prioritized during evaluation.
 
 ### 📥 Download Instructions
+
+#### Option 1: Download using Terminal
+You can quickly download the CSV directly from the repository using `wget`:
+```bash
+wget https://raw.githubusercontent.com/vickyrocks-torvaldshugefan/Machine-Learning/main/07-Midterm-Project/online_shoppers_intention.csv
+```
+
+#### Option 2: Manual Download
+1. Visit the UCI dataset link provided above.
+2. Download the dataset archive.
+3. Extract the downloaded files.
+4. Place `online_shoppers_intention.csv` directly into the project root directory.
 1. Visit the UCI dataset link provided above.
 2. Download the dataset archive.
 3. Extract the downloaded files.
